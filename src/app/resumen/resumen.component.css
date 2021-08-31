@@ -1,5 +1,8 @@
 * {background-color: #1c3b4e
 }
+.contenido{
+    padding: 10%;
+}
 p{
     color: #ffff;
 }
@@ -7,5 +10,5 @@ p{
     margin: auto;
     margin-top: 20%;
     margin-bottom: 5%;
-    width: 90%;
+    width: 95%;
 }
