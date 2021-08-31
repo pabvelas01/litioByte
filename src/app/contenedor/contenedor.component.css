@@ -1,7 +1,18 @@
 .contenido{
-    background-color: #ffff;
-    width: 50%;
+    background-color: #1c3b4e;
+    width: 100%;
     height: 60%;
-    margin: auto;
-    padding: 2%;
+    margin: 0;
+    padding: 0;
 }
+
+@media (min-width: 768px) { 
+    /*pantallas superiores a 768*/
+    .contenido{
+        background-color: #ffff;
+        width: 50%;
+        height: 60%;
+        margin: auto;
+        padding: 2%;
+    }
+ }
