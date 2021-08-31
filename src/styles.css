@@ -1,3 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
 *{background-color: #1c3b4e;
 }
+.rojo{
+    color:#AE3A3A;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #3F6E8A;
+    border-color:#3F6E8A;
+}
+.btn-porcentual {
+    color: #fff;
+    background-color: #1c3b4e;
+    border-color:#3F6E8A;
+}
+
+.Light_blue{
+color: #3F6E8A;
+}
+.Alert_red{
+    color: #AE3A3A;
+}
+
+.Disable_gray {
+    color: #EDEDED;
+}
+
+.White{
+    color: #FFFFFF;
+}
