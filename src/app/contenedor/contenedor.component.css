@@ -10,9 +10,9 @@
     /*pantallas superiores a 768*/
     .contenido{
         background-color: #ffff;
-        width: 50%;
+        width: 60%;
         height: 60%;
         margin: auto;
-        padding: 2%;
+        padding: 1.5%;
     }
  }

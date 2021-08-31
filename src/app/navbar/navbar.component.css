@@ -1,7 +1,17 @@
 * {
-    padding-top: 5vh;
+    padding-top: 1vh;
 }
 .strong_blue{background-color: #1c3b4e}
 .logo{
-    max-width: 10em;
+    max-width: 20em;
 }
+
+@media (min-width: 768px) { 
+    /*pantallas superiores a 768*/
+    * {
+        padding-top: 5vh;
+    }
+    .logo{
+        max-width: 10em;
+    }
+ }

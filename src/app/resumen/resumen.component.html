@@ -1,7 +1,7 @@
 <div class="row contenido">
 <div class="row">
     <div class="col-7"><p>Propina por persona</p></div>
-    <div class="col"><p class="text-end">$0.0</p></div>
+    <div class="col"><p class="text-end">${{propinaPorPersona}}</p></div>
 </div>
 
 <div class="row">
@@ -15,6 +15,6 @@
 </div>
 
 <div class="row">
-    <button type="button" class="btn btn-light btn_limpiar">Limpiar</button>
+    <button (click)="refresh()" type="button" class="btn btn-light btn_limpiar">Limpiar</button>
 </div>
 </div>

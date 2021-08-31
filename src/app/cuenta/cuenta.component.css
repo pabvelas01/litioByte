@@ -1,5 +1,10 @@
 * {background-color: #ffff;
 }
+.row:first-of-type {
+    padding-top:10%;
+    padding-bottom:10%
+  }
+
 button,.grupo_btn{
     width: 80%;
     margin: 5%;
@@ -19,3 +24,11 @@ button,.grupo_btn{
     background-color: #1c3b4e;
     border-color:#3F6E8A;
 }
+
+
+@media (min-width: 768px) { 
+    /*pantallas superiores a 768*/
+    .row:first-of-type{
+        
+    }
+ }
