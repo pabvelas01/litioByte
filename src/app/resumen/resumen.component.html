@@ -1,17 +1,17 @@
 <div class="row contenido">
 <div class="row">
     <div class="col-7"><p>Propina por persona</p></div>
-    <div class="col"><p class="text-end">${{propinaPorPersona}}</p></div>
+    <div class="col"><p class="text-end">${{numericPropinaPorPersona | number:'1.2-2'}}</p></div>
 </div>
 
 <div class="row">
     <div class="col-7"><p>Propina total</p></div>
-    <div class="col"><p class="text-end">$0.0</p></div>
+    <div class="col"><p class="text-end">${{numericPropina  | number:'1.2-2'}}</p></div>
 </div>
 
 <div class="row">
     <div class="col-7"><p>Cuenta + Propina</p></div>
-    <div class="col"><p class="text-end">$0.0</p></div>
+    <div class="col"><p class="text-end">${{cuentaMasPropina  | number:'1.2-2'}}</p></div>
 </div>
 
 <div class="row">

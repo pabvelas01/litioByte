@@ -7,15 +7,15 @@
 
   <label class="form-label">Seleccione la cantidad de propina %</label>
   <div class="row" width="100%">
-      <div class="col"><button type="button" class="btn btn-porcentual">5%</button></div>
-      <div class="col"><button type="button" class="btn btn-porcentual">10%</button></div>
-      <div class="col"><button type="button" class="btn btn-porcentual">15%</button></div>
+      <div class="col"><button (click)="setearPorcentaje('5')" type="button" class="btn btn-porcentual">5%</button></div>
+      <div class="col"><button (click)="setearPorcentaje('10')" type="button" class="btn btn-porcentual">10%</button></div>
+      <div class="col"><button (click)="setearPorcentaje('15')" type="button" class="btn btn-porcentual">15%</button></div>
   </div>
   <div class="row" width="100%">
-      <div class="col"><button type="button" class="btn btn-porcentual">25%</button></div>
-      <div class="col"><button type="button" class="btn btn-porcentual">50%</button></div>
+      <div class="col"><button (click)="setearPorcentaje('25')" type="button" class="btn btn-porcentual">25%</button></div>
+      <div class="col"><button (click)="setearPorcentaje('50')"  type="button" class="btn btn-porcentual">50%</button></div>
       <div class="col"><div class="input-group mb-2  grupo_btn">
-        <input type="text" (keypress)="keyPressNumeric($event)" class="form-control" aria-label="Amount (to the nearest dollar)">
+        <input type="text" [(ngModel)]="inputPorcentaje" (change)="setearPorcentaje(inputPorcentaje)" (keypress)="keyPressNumeric($event)" class="form-control" aria-label="Amount (to the nearest dollar)">
         <span class="input-group-text">%</span>
       </div>
     </div>

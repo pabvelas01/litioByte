@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class CuentaComponent implements OnInit {
   public inputTotalCuenta:string="";
   public inputTotalPersonas:string="";
+  public inputPorcentaje:string="";
+ public porcentaje:string="";
   constructor() { }
 
   ngOnInit(): void {
@@ -32,6 +34,10 @@ export class CuentaComponent implements OnInit {
   public limpiar(event:any){
     this.inputTotalCuenta="";
     this.inputTotalPersonas="";
+  }
+
+  public setearPorcentaje(porcentaje:string){
+    this.porcentaje=porcentaje;
   }
 
 }
