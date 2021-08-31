@@ -6,6 +6,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CuentaComponent } from './cuenta/cuenta.component';
 import { ResumenComponent } from './resumen/resumen.component';
 import { ContenedorComponent } from './contenedor/contenedor.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContenedorComponent } from './contenedor/contenedor.component';
     ContenedorComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

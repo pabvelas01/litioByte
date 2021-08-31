@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cuenta.component.css']
 })
 export class CuentaComponent implements OnInit {
-
+  public inputTotalCuenta:number=0;
+  public inputTotalPersonas:number=0;
   constructor() { }
 
   ngOnInit(): void {
