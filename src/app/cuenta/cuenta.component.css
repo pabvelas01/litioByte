@@ -1,6 +1,6 @@
 * {background-color: #ffff;
 }
-button{
+button,.grupo_btn{
     width: 80%;
     margin: 5%;
 }
