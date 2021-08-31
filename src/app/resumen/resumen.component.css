@@ -3,3 +3,9 @@
 p{
     color: #ffff;
 }
+.btn_limpiar{
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    width: 90%;
+}
